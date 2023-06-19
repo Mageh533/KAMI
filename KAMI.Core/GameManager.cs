@@ -37,6 +37,7 @@ namespace KAMI.Core
                 case "BCES00226": return new Resistance2(ipc);
                 case "BCES01118": return new Resistance3(ipc);
                 case "BLES00016": return new CallOfDuty3(ipc);
+                case "BLES00246": return new MetalGearSolid4(ipc);
                 case "BLES00261":
                 case "BLUS30118": return new BattlefieldBadCompany(ipc, id);
                 case "SCUS-97353": return new Ratchet3PS2(ipc);
